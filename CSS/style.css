@@ -3,9 +3,14 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: auto;
+    width: 100%;
   }
   
+.body{
+  position: inherit;
+  margin: auto;
+  width: 100%;
+}
   .Top-img{
     position: absolute;
     width: 1425px;
@@ -14,8 +19,9 @@
   .home .div {
     background-color: #ffffff;
     overflow: scroll;
+    top: auto;
     width: 1440px;
-    height: 2798px;
+    height: 3080px;
   }
   
   .home .overlap {
@@ -28,12 +34,12 @@
   }
   
   .home .QUOTE-HOME {
-    position: relative;
+    position: absolute;
     overflow: auto;
-    width: 1168px;
+    width: 1150px;
     height: 800px;
     top: 214px;
-    left: 175px;
+    left: 190px;
     box-shadow: 0px 4px 4px #00000040;
   }
 
@@ -1207,3 +1213,134 @@
     top: 0;
     left: 0;
   }
+
+  /* Login Page */
+
+  .log-in {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .log-in .div {
+    background-color: rgba(255, 255, 255, 1);
+    background: linear-gradient(180deg, rgb(56, 170, 235) 0%, rgba(181, 204, 217, 0.6) 69.63%);
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+  }
+  
+  .log-in .overlap {
+    position: absolute;
+    width: 574px;
+    height: 499px;
+    top: 262px;
+    left: 792px;
+    background-size: 100% 100%;
+  }
+  
+  .log-in .group {
+    position: absolute;
+    width: 486px;
+    height: 57px;
+    top: 141px;
+    left: 45px;
+  }
+  
+  .log-in .overlap-group {
+    position: relative;
+    width: 484px;
+    height: 57px;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  
+  .log-in .text-wrapper {
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    font-family: "Gothic A1-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .log-in .overlap-wrapper {
+    position: absolute;
+    width: 486px;
+    height: 57px;
+    top: 231px;
+    left: 45px;
+  }
+  
+  .log-in .text-wrapper-2 {
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    font-family: "Gothic A1-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .log-in .overlap-group-wrapper {
+    position: absolute;
+    width: 229px;
+    height: 59px;
+    top: 347px;
+    left: 174px;
+  }
+  
+  .log-in .div-wrapper {
+    position: relative;
+    width: 227px;
+    height: 59px;
+    background-color: #b4cbd8;
+    border-radius: 20px;
+  }
+  
+  .log-in .text-wrapper-3 {
+    position: absolute;
+    top: 8px;
+    left: 65px;
+    font-family: "Judson-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .log-in .text-wrapper-4 {
+    position: absolute;
+    width: 449px;
+    top: 378px;
+    left: 90px;
+    font-family: "Khand-Regular", Helvetica;
+    font-weight: 400;
+    color: #d9d9d9;
+    font-size: 70px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .log-in .text-wrapper-5 {
+    position: absolute;
+    width: 631px;
+    top: 476px;
+    left: 89px;
+    font-family: "Khand-Regular", Helvetica;
+    font-weight: 400;
+    color: #d9d9d9;
+    font-size: 60px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
