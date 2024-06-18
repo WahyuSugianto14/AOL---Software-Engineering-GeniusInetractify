@@ -6,28 +6,71 @@
     <title>Login</title>
 
     <style>
-        @import url(CSS/style.css);
-    </style>
+       @import url(CSS/style.css);
+
+/* Basic styling for the form elements */
+.log-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.div {
+    text-align: center;
+}
+.input-wrapper {
+    margin: 10px 0;
+}
+input {
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+</style>
 
 </head>
 <body>
-    <div class="log-in">
-        <div class="div">
-          <div class="overlap">
-            <img src="Img/Background Login box.png" />
-            <div class="group">
-              <div class="overlap-group"><div class="text-wrapper">Username</div></div>
-            </div>
-            <div class="overlap-wrapper">
-              <div class="overlap-group"><div class="text-wrapper-2">Password</div></div>
-            </div>
-            <div class="overlap-group-wrapper">
-              <div class="div-wrapper"><div class="text-wrapper-3">Log In</div></div>
-            </div>
+<div class="log-in">
+<div class="div">
+  <div class="overlap">
+    <img src="Img/Background Login box.png" />
+    <form>
+        <div class="group">
+          <div class="overlap-group">
+              <div class="input-wrapper">
+                  <input type="text" name="username" placeholder="Enter Username">
+              </div>
           </div>
-          <div class="text-wrapper-4">GeniusInteractify</div>
-          <div class="text-wrapper-5">Welcome Guest Please Login!</div>
         </div>
-      </div>
+        <div class="overlap-wrapper">
+          <div class="overlap-group">
+
+                  <input type="password" name="password" placeholder="Enter Password">
+              </div>
+          </div>
+        </div>
+        <div class="overlap-group-wrapper">
+          <div class="div-wrapper">
+              <button type="submit">
+                  <div class="text-wrapper-3">Log In</div>
+              </button>
+          </div>
+        </div>
+    </form>
+  </div>
+  <div class="text-wrapper-4">GeniusInteractify</div>
+  <div class="text-wrapper-5">Welcome Guest Please Login!</div>
+</div>
+</div>
 </body>
 </html>
