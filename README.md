@@ -1,10 +1,20 @@
-**GeniusInteractify**
+# GeniusInteractify
 
-**Introduction**
+Welcome to **GeniusInteractify**, your ultimate online study package to prepare for the UTBK. We provide comprehensive learning materials, a virtual library of educational videos, and forums for student interaction, all aimed at helping you succeed.
 
-Introducing GeniusInteractify that is aimed at helping you prepare for UTBK by offering an engaging online study package. This website has learning materials and a virtual library of learning videos It also has forums that can be accessed by all the students.
+## Features
 
-As students who want to pass the UTBK selection, it is expected that through GeniusInteractify, students from various backgrounds can have a better chance of passing the selection as well as citizens cooperating in the development of more advanced and technology-based learning in Indonesia.
+### Learning Materials
+Access a vast array of materials tailored to help you master the UTBK subjects.
 
+### Video Learning
+Explore our extensive collection of learning videos that cover various topics in depth.
 
-**Website GeniusInteractify**
+### Student Forums
+Join our community forums to discuss topics, share knowledge, and collaborate with fellow students.
+
+---
+
+GeniusInteractify - Empowering Students for a Brighter Future
+
+![Website Screenshot](images/website_screenshot.png)
