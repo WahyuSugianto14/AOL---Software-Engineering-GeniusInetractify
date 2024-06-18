@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Genius Interactify</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;/
+            background-size: cover; /* Tidak diperlukan lagi jika background dihapus */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: rgb(0, 0, 0);
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+            max-width: 960px;
+        }
+        .welcome-section {
+            text-align: left;
+        }
+        .welcome-section h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .welcome-section p {
+            font-size: 1.2em;
+            margin: 10px 0 0;
+        }
+        .login-section {
+            background: rgba(203, 181, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            color: black;
+            width: 300px;
+        }
+        .login-section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .login-section label {
+            display: block;
+            margin-bottom: 6px;
+        }
+        .login-section input[type="text"], .login-section input[type="password"] {
+            width: 95%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #130000;
+            border-radius: 5px;
+        }
+        .login-section button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4a54e1;
+            border: none;
+            border-radius: 5px;
+            color: rgb(255, 252, 252);
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .login-section button:hover {
+            background-color: #373fda;
+        }
+        .signup-prompt {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .signup-prompt a {
+            color: #4a54e1;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="welcome-section">
+            <h1>GeniusInteractify</h1>
+            <p>Welcome Guest Please Login!</p>
+        </div>
+        <div class="login-section">
+            <h2>Login</h2>
+            <form id="loginForm" action="/submit-your-login-form" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Log In</button>
+                <div class="signup-prompt">
+                    Don't have an account? <a href="FormLogin.html">Sign Up</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script>
+        document.getElementById('loginForm').onsubmit = function(event) {
+            event.preventDefault(); 
+            setTimeout(function() {
+                window.location.href = 'Home.html'; 
+            }, 1000);
+        };
+    </script>
+</body>
+</html>
